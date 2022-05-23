@@ -1,0 +1,16 @@
+#Contacto-Root {
+    background-color: white;
+    padding: 7em 0em 7em 0em;
+}
+
+#Contacto-Root h2 {
+    color: black;
+}
+
+.contacto-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+}

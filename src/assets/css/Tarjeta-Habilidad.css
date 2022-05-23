@@ -1,0 +1,94 @@
+h3 {
+    font-size: x-large;
+}
+
+.tarjetas-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7em;
+}
+
+.tarjeta-vertical {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 23em;
+    margin: 1em;
+    border-radius: 1em;
+    transition: 0.3s;
+    -webkit-box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+}
+
+.tarjeta-vertical:hover {
+    -webkit-box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+}
+
+.listado-habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    margin: 0em 0em 1em 0em;
+}
+
+.listado-habilidades ul {
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+.listado-habilidades ul img {
+    width: 3em;
+    margin: 0em 1em 0em 0em;
+}
+
+.tarjeta-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    margin: 1em;
+    border-radius: 1em;
+    transition: 0.3s;
+    -webkit-box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+}
+
+.tarjeta-horizontal:hover {
+    -webkit-box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+}
+
+.container-idioma {
+    margin: 1em;
+}
+
+.container-idioma img {
+    width: 3em;
+}
+
+.container-idioma div:hover {
+    color: rgb(59,189,174);
+}
+
+@media only screen and (max-width: 1024px) {
+    .listado-habilidades ul {
+        padding: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .tarjeta-vertical {
+        width: 90%;
+    }
+}

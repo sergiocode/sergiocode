@@ -1,0 +1,51 @@
+.proyecto-tarjeta {
+    background-color: white;
+    width: 32%;
+    height: 20em;
+    margin: 1em;
+    text-decoration: none;
+}
+
+.explicacion-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-tarjeta {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-color: red;
+}
+
+.footer-tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.footer-tarjeta h3 {
+    text-decoration: none;
+    color: black;;
+}
+
+.footer-tarjeta h3:hover {
+    color: rgb(59,189,174);
+}
+
+@media only screen and (max-width: 1000px) {
+    #Tarjeta-Proyecto {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #Tarjeta-Proyecto {
+        width: 25em;
+    }
+}

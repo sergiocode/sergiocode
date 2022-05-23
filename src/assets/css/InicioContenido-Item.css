@@ -1,0 +1,27 @@
+#InicioContenido-Root {
+    background-image: url('/src/assets/img/inicioBackground.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo-inicio {
+    width: 5em;
+}
+
+.flexa-abajo {
+    width: 3em;
+    position: relative;
+    animation: movimiento-flecha 3s infinite;
+}
+
+@keyframes movimiento-flecha {
+    0% {top: -8em;}
+    25% {top: -7em}
+    50% {top: -8em;}
+    75% {top: -7em;}
+    100% {top: -8em;}
+}

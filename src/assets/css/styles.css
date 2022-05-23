@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    cursor: default;
+    /* cursor: url('/src/assets/cursor2.png'), auto; */
+}
+
+/* Fuentes */
+    /* Fuente para títulos */
+    @font-face{
+        font-family: "fuenteTitulos";
+        src: url(/src/assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+    /* Fuente para texto */
+    @font-face{
+        font-family: "fuenteTexto";
+        src: url(/src/assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+
+/* Clase para establecer estilo a todos los componentes de contenido */
+.contenido-item {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+p {
+    font-family: "fuenteTexto";
+    font-size: large;
+}
+
+h2 {
+    position: relative;
+    margin: 0;
+    font-size: 300%;
+}
+
+button {
+    border: none;
+    border-radius: 1em;
+    color: white;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}

@@ -1,0 +1,109 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 6em;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left:0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-link {
+    font-family: "fuenteTitulos";
+    margin: 0em 1em;
+    text-decoration: none;
+    color: white;
+    height: 5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-link:hover {
+    color: rgb(142, 227, 249);
+    animation: navlink-color-change 3s infinite;
+    font-weight: bold;
+}
+
+@keyframes navlink-color-change {
+    0% {color: rgb(255, 255, 255);}
+    25% {color: rgb(225, 255, 252);}
+    50% {color: rgb(150, 255, 243);}
+    75% {color: rgb(225, 255, 252);}
+    100% {color: rgb(255,255,255);}
+}
+
+.navbar-content {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a img {
+    width: 3em;
+}
+
+.logo-personal img {
+    width: 4em;
+}
+
+.icono-menu img {
+    width: 3em;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.icono-menu {
+    display: none;
+}
+
+.navbar-links-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 6em;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    transition: 0.5s;
+}
+
+.navbar-links-mobile a {
+    position: relative;
+    top: -5em;
+    font-size: larger;
+}
+
+/* Mobile media queries */
+@media only screen and (max-width: 700px) {
+    .navbar-content {
+        justify-content: space-between;
+        padding: 0em 3em;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .icono-menu {
+        display: contents;
+    }
+
+    .navbar-links-mobile {
+        display: flex;
+    }
+}

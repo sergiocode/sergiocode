@@ -1,0 +1,25 @@
+COMPONENTES PORTFOLIO
+
+    Nabvar
+
+    Content (Componente que engloba a todo el contenido)
+        |-->InicioContenido
+        |-->SobreMi
+            |--> BloqueTexto
+            |--> Video
+        |-->Habilidades
+            |--> TarjetaHabilidades
+            |-->
+        |-->Projects
+            |--> TarjetaProyecto
+        |-->Contacto
+
+    Componentes pequeños (elementos/átomos)
+        |--> BotonNavBar
+        |--> BotonPrincipal
+
+
+EXTRAS
+
+    Modificar cursor
+    Modificar scroll bar

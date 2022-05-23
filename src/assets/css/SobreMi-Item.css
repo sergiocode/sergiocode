@@ -1,0 +1,116 @@
+#SobreMi-Root {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-sobre-mi {
+    color: white;
+}
+
+.container-sobre-mi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: 59em;
+    margin: 0em 0em 3em 0em;
+    padding-bottom: 7em;
+}
+
+h1 {
+    font-size: 400%;
+    margin: 2em 0em 0em 0em;
+}
+
+.contenedor-texto-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d2d2d6e;
+    -webkit-box-shadow: 3px 3px 20px -10px rgb(107, 107, 107);
+    -moz-box-shadow: 3px 3px 20px -10px rgb(107, 107, 107);
+    box-shadow: 3px 3px 20px -10px rgb(107, 107, 107v);
+    width: 70%;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.texto-sobreMi {
+    color: white;
+    font-size: large;
+    line-height: 1.5em;
+}
+
+.video {
+    width: 29em;
+    border-radius: 1em;
+}
+
+.botonera-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0.5em 0em;
+    width: 80%;
+    height: 2em;
+}
+
+.botonera-video button{
+    background-color: rgb(69 76 75);
+}
+
+ol {
+    color: white;
+    padding: 0;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+ul {
+    padding: 1em;
+    font-family: fuenteTitulos;
+    font-size: larger;
+    font-weight: bold;
+}
+
+ul:hover {
+    color: rgb(59,189,174);
+}
+
+@media only screen and (max-width: 800px) {
+    .contenedor-texto-video {
+        width: 95%;
+    }
+
+    .video {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .texto-sobreMi {
+        font-size: medium;
+    }
+    ul {
+        padding: 1em;
+        font-family: fuenteTitulos;
+        font-size: small;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    h1 {
+        font-size: 300%;
+    }
+}

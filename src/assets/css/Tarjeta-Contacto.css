@@ -1,0 +1,58 @@
+.tarjeta-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 23em;
+    margin: 1em;
+    padding: 2em 0em;
+    border-radius: 1em;
+    transition: 0.3s;
+    -webkit-box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 11px -7px rgba(0,0,0,0.75);
+}
+
+.tarjeta-contacto:hover {
+    -webkit-box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 15px -4px rgba(0,0,0,0.75);
+}
+
+.foto-perfil {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.tarjeta-contacto p:hover {
+    color: rgb(60 158 184);
+}
+
+.numero-contacto {
+    margin: 0;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 1em 0em;
+}
+
+.redes-sociales a {
+    width: 3em;
+}
+
+@media only screen and (max-width: 700px) {
+    .tarjeta-contacto {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .tarjeta-contacto {
+        width: 90%;
+    }
+}

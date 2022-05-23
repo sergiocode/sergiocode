@@ -1,0 +1,25 @@
+.boton-principal {
+    background-color: rgb(59,189,174);
+    color: white;
+    border-radius: 10em;
+    padding: 1em;
+    text-decoration: none;
+    position: relative;
+}
+
+.boton-principal:active {
+    background-color: rgb(34, 149, 135);
+}
+
+.boton-principal:hover {
+    animation: movimiento-boton 3s infinite;
+}
+
+@keyframes movimiento-boton {
+    0% {top: 0em;}
+    25% {top: -0.5em}
+    50% {top: 0em;}
+    75% {top: -0.5em;}
+    100% {top: 0em;}
+}
+
