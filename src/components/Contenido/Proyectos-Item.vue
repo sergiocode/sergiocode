@@ -2,7 +2,7 @@
     <div id="Proyectos-Root" class="contenido-item">
         <TituloContenido class="titulo-proyectos" tituloOut="PROYECTOS"/>
         <div class="explicacion-proyectos">
-            <p>Éstos son algunos de los proyectos que he hecho a lo largo de mi carrera como desarrollador. La mayoría de ellos son proyectos y trabajos que he hize mientras estudiaba:</p>
+            <p>Estos son algunos de los proyectos que he hecho a lo largo de mi carrera como desarrollador. La mayoría de ellos son proyectos y trabajos que hice mientras estudiaba:</p>
         </div>
         <div class="contenedor-proyectos">
             <a id="Tarjeta-Proyecto" class="proyecto-tarjeta" href="https://sergiocode.github.io/FraseGame/">

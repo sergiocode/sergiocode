@@ -54,14 +54,31 @@ h1 {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0.5em 0em;
     width: 80%;
-    height: 2em;
 }
 
-.botonera-video button{
+.section-button{
     background-color: rgb(69 76 75);
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.control-button {
+    background-color: rgb(59,189,174);
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5em;
+}
+
+.control-button img {
+    width: 0.7em;
 }
 
 ol {

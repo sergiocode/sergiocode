@@ -5,6 +5,7 @@
     padding: 1em;
     text-decoration: none;
     position: relative;
+    font-family: 'fuenteTitulos';
 }
 
 .boton-principal:active {

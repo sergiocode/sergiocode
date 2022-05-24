@@ -8,20 +8,21 @@
                 Crecí rodeado de ordenadores y tecnología, así que decidí hacer de un hobbie una profesión.
                 </p>
                 <!-- Meter VIDEO INTERACTIVO-->
-                <video id="video" ref="video" autobuffer controls autoplay class="video">
+                <video id="video" ref="video" autobuffer controls class="video">
                     <source id="mp4" src="../../assets/video/video.mp4" type="video/mp4">
                 </video>
                 <div class="botonera-video">
+                    <button class="control-button" @click="playVideo()"><img src="../../assets/img/play.png"></button>
                     <!-- 0:00 -->
-                    <button @click="quienSoy()">¿Quien soy?</button>
+                    <button class="section-button" @click="quienSoy()">¿Quien soy?</button>
                     <!-- 0:22 -->
-                    <button @click="skills()">Skills</button>
+                    <button class="section-button" @click="skills()">Skills</button>
                     <!-- 0:26 -->
-                    <button @click="lenguajes()">Lenguajes</button>
+                    <button class="section-button" @click="lenguajes()">Lenguajes</button>
                     <!-- 0:50 -->
-                    <button @click="objetivos()">Objetivos</button>
+                    <button class="section-button" @click="objetivos()">Objetivos</button>
                     <!-- 1:00 -->
-                    <button @click="personal()">Personal</button>
+                    <button class="section-button" @click="personal()">Personal</button>
                 </div>
             </div>
             <ol>
@@ -31,7 +32,6 @@
                 <ul v-for="dato in datosSkills" :key="dato.correo">{{dato.constante}}</ul>
                 <ul v-for="dato in datosSkills" :key="dato.correo">{{dato.emprendedor}}</ul>
                 <ul v-for="dato in datosSkills" :key="dato.correo">{{dato.persistente}}</ul>
-
             </ol>
             <BotonPrincipal :href="`${publicPath}documents/Sergio Moyano CV.pdf`" download="Sergio Moyano CV.pdf" nombre="Descargar CV"></BotonPrincipal>
         </div>
@@ -60,6 +60,14 @@ export default {
         }
     },
     methods: {
+        playVideo() {
+            let videoElement = document.getElementById("video");
+            if (videoElement.paused) {
+                videoElement.play()
+            } else {
+                videoElement.pause();
+            }
+        },
         quienSoy() {
             let videoElement = document.getElementById("video");
             videoElement.currentTime = 0;

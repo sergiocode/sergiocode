@@ -40,7 +40,6 @@ export default {
             } else {
                 menuMobil.style.left = "100vw"
             }
-            // menuMobil.classList.left = 0;
         }
     },
 }

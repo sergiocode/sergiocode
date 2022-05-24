@@ -81,6 +81,10 @@ h3 {
     color: rgb(59,189,174);
 }
 
+.nivel {
+    font-family: 'fuenteTitulos';
+}
+
 @media only screen and (max-width: 1024px) {
     .listado-habilidades ul {
         padding: 0.5em;
