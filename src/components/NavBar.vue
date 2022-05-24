@@ -17,11 +17,11 @@
         </div>
     </nav>
     <div class="navbar-links-mobile">
-        <a class="navbar-link" href="#InicioContenido-Root">INICIO</a>
-        <a class="navbar-link" href="#SobreMi-Root">SOBRE MI</a>
-        <a class="navbar-link" href="#Habilidades-Root">HABILIDADES</a>
-        <a class="navbar-link" href="#Proyectos-Root">PROYECTOS</a>
-        <a class="navbar-link" href="#Contacto-Root">CONTACTO</a>
+        <a class="navbar-link" @click="cerrarNavbar()" href="#InicioContenido-Root">INICIO</a>
+        <a class="navbar-link" @click="cerrarNavbar()" href="#SobreMi-Root">SOBRE MI</a>
+        <a class="navbar-link" @click="cerrarNavbar()" href="#Habilidades-Root">HABILIDADES</a>
+        <a class="navbar-link" @click="cerrarNavbar()" href="#Proyectos-Root">PROYECTOS</a>
+        <a class="navbar-link" @click="cerrarNavbar()" href="#Contacto-Root">CONTACTO</a>
     </div>
 </template>
 
@@ -39,6 +39,14 @@ export default {
                 menuMobil.style.left = 0;
             } else {
                 menuMobil.style.left = "100vw"
+            }
+        },
+        cerrarNavbar() {
+            let menuMobil = document.querySelector('.navbar-links-mobile');
+            let menuLeft = menuMobil.offsetLeft;
+
+            if (menuLeft == 0) {
+                menuMobil.style.left = "100vw";
             }
         }
     },
