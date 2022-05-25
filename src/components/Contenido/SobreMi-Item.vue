@@ -14,15 +14,15 @@
                 <div class="botonera-video">
                     <button class="control-button" @click="playVideo()"><img src="../../assets/img/play.png"></button>
                     <!-- 0:00 -->
-                    <button class="section-button" @click="quienSoy()" id="boton-quienSoy">¿Quien soy?</button>
+                    <button class="section-button" @click="quienSoy()" id="boton-quienSoy">¿QUIEN SOY?</button>
                     <!-- 0:22 -->
-                    <button class="section-button" @click="skills()" id="boton-skills">Skills</button>
+                    <button class="section-button" @click="skills()" id="boton-skills">SKILLS</button>
                     <!-- 0:26 -->
-                    <button class="section-button" @click="lenguajes()" id="boton-lenguajes">Lenguajes</button>
+                    <button class="section-button" @click="lenguajes()" id="boton-lenguajes">LENGUAJES</button>
                     <!-- 0:50 -->
-                    <button class="section-button" @click="objetivos()" id="boton-objetivos">Objetivos</button>
+                    <button class="section-button" @click="objetivos()" id="boton-objetivos">OBJETIVOS</button>
                     <!-- 1:00 -->
-                    <button class="section-button" @click="personal()" id="boton-personal">Personal</button>
+                    <button class="section-button" @click="personal()" id="boton-personal">PERSONAL</button>
                 </div>
             </div>
             <ol>
