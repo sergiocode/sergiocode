@@ -2,7 +2,7 @@
     <nav>
         <div class="navbar-content">
             <a href="InicioContenido-Root">
-                <img src="../assets/img/logoWh.svg"/>
+                <img src="../assets/img/logoWh.svg" alt="No es posible visualizar la imagen"/>
             </a>
             <div class="navbar-links">
                 <a class="navbar-link" href="#InicioContenido-Root">INICIO</a>

@@ -10,21 +10,21 @@
                     <div id="tarjeta-frontend" class="tarjeta-vertical">
                         <h3>FRONTEND</h3>
                         <ol class="listado-habilidades">
-                            <ul><img src="../../assets/img/html.png"/>HTML</ul>
-                            <ul><img src="../../assets/img/css.png"/>CSS & SASS</ul>
-                            <ul><img src="../../assets/img/js.png"/>JavaScript</ul>
-                            <ul><img src="../../assets/img/vue.png"/>Vue</ul>
-                            <ul><img src="../../assets/img/react.png"/>React JS</ul>
+                            <ul><img src="../../assets/img/html.png" alt="No es posible visualizar la imagen"/>HTML</ul>
+                            <ul><img src="../../assets/img/css.png" alt="No es posible visualizar la imagen"/>CSS & SASS</ul>
+                            <ul><img src="../../assets/img/js.png" alt="No es posible visualizar la imagen"/>JavaScript</ul>
+                            <ul><img src="../../assets/img/vue.png" alt="No es posible visualizar la imagen"/>Vue</ul>
+                            <ul><img src="../../assets/img/react.png" alt="No es posible visualizar la imagen"/>React JS</ul>
                         </ol>
                     </div>
                     <div id="tarjeta-backend" class="tarjeta-vertical">
                         <h3>BACKEND</h3>
                         <ol class="listado-habilidades">
-                            <ul><img src="../../assets/img/java.png"/>Java</ul>
-                            <ul><img src="../../assets/img/php.png"/>PHP</ul>
-                            <ul><img src="../../assets/img/laravel.png"/>Laravel</ul>
-                            <ul><img src="../../assets/img/sql.png"/>SQL</ul>
-                            <ul><img src="../../assets/img/mongo.png"/>Mongo DB</ul>
+                            <ul><img src="../../assets/img/java.png" alt="No es posible visualizar la imagen"/>Java</ul>
+                            <ul><img src="../../assets/img/php.png" alt="No es posible visualizar la imagen"/>PHP</ul>
+                            <ul><img src="../../assets/img/laravel.png" alt="No es posible visualizar la imagen"/>Laravel</ul>
+                            <ul><img src="../../assets/img/sql.png" alt="No es posible visualizar la imagen"/>SQL</ul>
+                            <ul><img src="../../assets/img/mongo.png" alt="No es posible visualizar la imagen"/>Mongo DB</ul>
                         </ol>
                     </div>
                 </div>
@@ -34,15 +34,15 @@
                 <div class="tarjetas">
                     <div class="tarjeta-horizontal">
                         <div class="container-idioma">
-                            <img src="../../assets/img/castellano.png"/>
+                            <img src="../../assets/img/castellano.png" alt="No es posible visualizar la imagen"/>
                             <div class="nivel">Castellano NATIVO</div>
                         </div>
                         <div class="container-idioma">
-                            <img src="../../assets/img/catalan.png"/>
+                            <img src="../../assets/img/catalan.png" alt="No es posible visualizar la imagen"/>
                             <div class="nivel">Catalán NATIVO</div>
                         </div>
                         <div class="container-idioma">
-                            <img src="../../assets/img/ingles.png"/>
+                            <img src="../../assets/img/ingles.png" alt="No es posible visualizar la imagen"/>
                             <div class="nivel">Inglés NIVEL B2</div>
                         </div>
                     </div>

@@ -6,19 +6,19 @@
         </div>
         <div class="contenedor-proyectos">
             <a id="Tarjeta-Proyecto" class="proyecto-tarjeta" href="https://sergiocode.github.io/FraseGame/">
-                <img class="imagen-tarjeta" src="../../assets/img/portadaFrase.png"/>
+                <img class="imagen-tarjeta" src="../../assets/img/portadaFrase.png" alt="No es posible visualizar la imagen"/>
                 <div class="footer-tarjeta">
                     <h3>Juego FRASE</h3>
                 </div>
             </a>
             <a id="Tarjeta-Proyecto" class="proyecto-tarjeta" href="https://sergiocode.github.io/M06_05_FT_01/">
-                <img class="imagen-tarjeta" src="../../assets/img/eventosDOM.png"/>
+                <img class="imagen-tarjeta" src="../../assets/img/eventosDOM.png" alt="No es posible visualizar la imagen"/>
                 <div class="footer-tarjeta">
                     <h3>Eventos DOM</h3>
                 </div>
             </a>
             <a id="Tarjeta-Proyecto" class="proyecto-tarjeta" href="https://sergiocode.github.io/DomElements/">
-                <img class="imagen-tarjeta" src="../../assets/img/elementosDOM.png"/>
+                <img class="imagen-tarjeta" src="../../assets/img/elementosDOM.png" alt="No es posible visualizar la imagen"/>
                 <div class="footer-tarjeta">
                     <h3>Elementos DOM</h3>
                 </div>

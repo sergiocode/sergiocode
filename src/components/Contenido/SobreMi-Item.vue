@@ -12,7 +12,7 @@
                     <source id="mp4" src="../../assets/video/video.mp4" type="video/mp4">
                 </video>
                 <div class="botonera-video">
-                    <button class="control-button" @click="playVideo()"><img src="../../assets/img/play.png"></button>
+                    <button class="control-button" @click="playVideo()"><img src="../../assets/img/play.png" alt="No es posible visualizar la imagen"></button>
                     <!-- 0:00 -->
                     <button class="section-button" @click="quienSoy()" id="boton-quienSoy">¿QUIEN SOY?</button>
                     <!-- 0:22 -->
